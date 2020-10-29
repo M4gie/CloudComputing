@@ -8,6 +8,7 @@ module.exports = {
     '@snowpack/plugin-dotenv',
     '@snowpack/plugin-typescript',
   ],
+  scripts: { 'build:css': 'postcss' },
   install: [
     /* ... */
   ],
