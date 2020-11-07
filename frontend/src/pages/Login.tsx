@@ -37,7 +37,6 @@ export default function Login() {
           onSubmit={handleSubmit(onSubmit)}
         >
           <div className="mb-4">
-            {process.env.APP_AWS || 'Gotagaaaaa'}
             <label
               className="block text-gray-700 text-sm font-bold mb-2"
               htmlFor="username"
